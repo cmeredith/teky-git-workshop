@@ -16,6 +16,12 @@ body {
   box-sizing: border-box;
   width: 333px;
   height: 333px;
+  overflow: auto;
   margin-right: -4px;
   background-color: #ddd;
+}
+
+.mosaic .tile img {
+  max-width: 100%;
+  display: block;
 }
